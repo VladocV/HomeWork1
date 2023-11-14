@@ -1,6 +1,6 @@
- #сложение списков
- list1, list2 = input().split(), input().split()
- print(list(map(lambda x, y: int(x) + int(y), list1, list2)))
+#сложение списков
+list1, list2 = input().split(), input().split()
+print(list(map(lambda x, y: int(x) + int(y), list1, list2)))
 
 #кратные 12 и 13
 numbers = input().split()
